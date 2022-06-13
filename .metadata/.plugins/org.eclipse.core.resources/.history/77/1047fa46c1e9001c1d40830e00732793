@@ -1,0 +1,10 @@
+Feature: Application Login
+  I want to use this template for my feature file
+
+  Scenario: HomePage Default Login
+    Given User is on Landing page
+    When User Logins with id and password
+    And click sigin button
+    Then Homepage is displayed
+    And All cards are displaying or not
+

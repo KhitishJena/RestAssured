@@ -1,0 +1,10 @@
+package stepDefinitions;
+
+public class stepDefinitions {
+
+	
+	@Given("^User is on Landing page$")
+	public void LandingPage() {
+		
+	}
+}

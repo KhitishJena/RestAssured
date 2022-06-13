@@ -1,0 +1,14 @@
+package stepDefinitions;
+
+import io.cucumber.java.en.Given;
+
+public class stepDefinitions {
+
+	
+	@Given("^User is on Landing page$")
+	public void LandingPage() {
+		
+		System.out.println("User is on Landing page");
+		
+	}
+}

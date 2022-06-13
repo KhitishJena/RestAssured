@@ -1,0 +1,13 @@
+package jiraAPITest;
+
+public class JiraPayloads {
+	
+	public static String LoginPayload() {
+		
+		return "{\r\n"
+				+ "    \"username\": \"satishj90\",\r\n"
+				+ "    \"password\": \"!Lulu123\"\r\n"
+				+ "}";
+	}
+
+}

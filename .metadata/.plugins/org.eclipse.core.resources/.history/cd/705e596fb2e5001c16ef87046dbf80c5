@@ -1,0 +1,13 @@
+package DemoProject.DemoProject;
+
+import io.restassured.RestAssured;
+
+public class StaticJsonPath {
+	
+	@Test
+	public void AddPlace() {
+		
+		RestAssured.baseURI = "https://rahulshettyacademy.com";
+	}
+
+}

@@ -1,0 +1,18 @@
+package DemoProject.DemoProject;
+
+import org.testng.annotations.Test;
+
+import io.restassured.RestAssured;
+import static io.restassured.RestAssured.*;
+
+public class StaticJsonPath {
+	
+	@Test
+	public void AddPlace() {
+		
+		RestAssured.baseURI = "https://rahulshettyacademy.com";
+		
+		given().log().all()
+	}
+
+}

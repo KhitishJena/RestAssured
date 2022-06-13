@@ -1,0 +1,24 @@
+package DemoProject.DemoProject;
+
+import io.restassured.RestAssured;
+import static io.restassured.RestAssured.*;
+import static org.hamcrest.Matchers.*;
+
+import org.testng.annotations.Test;
+
+public class DynamicJsonParsing {
+
+	@Test
+	public void AddBook() {
+		// TODO Auto-generated method stub
+		
+		RestAssured.baseURI = "http://216.10.245.166";
+		
+		String add_response = given().log().all().header("Content-Type","application/json").
+				when().post("Library/Addbook.php")
+				.then().log().all().assertThat().statusCode(200).body("Msg", equalTo("successfully added"))
+				.extract().response().asString();
+
+	}
+
+}

@@ -1,0 +1,21 @@
+package jiraAPITest;
+
+import io.restassured.RestAssured;
+import static io.restassured.RestAssured.*;
+
+public class JiraTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		RestAssured.baseURI="http://localhost:8080";
+		
+		//********LOGIN********//
+		
+		String login_Response = given().log().all().header("Content-Type","application/json").body(JiraPayloads.LoginPayload())
+		.when().post("/rest/auth/1/session")
+		.then().log().all().assertThat().statusCode(200).extract().response(); 
+ 
+ 
+	}
+
+}
