@@ -30,6 +30,7 @@ public class stepDefinitions {
 	@And("^click sigin button$")
 	public void Click() {
 		
+		System.out.println("User clicks sign up button");
 		System.out.println("User clicks sign in button");
 		
 	}
