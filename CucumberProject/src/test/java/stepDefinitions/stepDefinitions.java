@@ -44,7 +44,7 @@ public class stepDefinitions {
 	@And("^All cards are \"([^\"]*)\"$")
 	public void AllCards(String command) {
 		
-		System.out.println(command);
+		System.out.println("All cards are "+command);
 		
 	}
 }
