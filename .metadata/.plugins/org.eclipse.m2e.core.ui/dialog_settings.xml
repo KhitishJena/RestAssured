@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="D:\REST Assured\CucumberProject\src\test\java\stepDefinitions\stepDefinitions.java"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -25,13 +26,18 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="bdd.APIFramework"/>
+			<item value="bdd.APIFrameWork"/>
 			<item value="DemoProject.CucumberProject"/>
 			<item value="DemoProject.DemoProject"/>
 		</list>
 		<list key="groupId">
+			<item value="bdd"/>
 			<item value="DemoProject"/>
 		</list>
 		<list key="artifactId">
+			<item value="APIFramework"/>
+			<item value="APIFrameWork"/>
 			<item value="CucumberProject"/>
 			<item value="DemoProject"/>
 		</list>

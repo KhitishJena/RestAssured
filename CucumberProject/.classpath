@@ -24,6 +24,12 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/K H I T I S H/Downloads/hamcrest-all-1.3.jar"/>
+	<classpathentry excluding="**" kind="src" output="target/test-classes" path="src/test/resources">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Khitish/Downloads/hamcrest-all-1.3.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

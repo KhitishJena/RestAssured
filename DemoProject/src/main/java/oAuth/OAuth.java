@@ -32,7 +32,7 @@ public class OAuth {
 		 * String url = driver.getCurrentUrl();
 		 */
 		
-		String url = "https://rahulshettyacademy.com/getCourse.php?code=4%2F0AX4XfWjMzZ72CYXsGYFeaKE1WNStjb-36Z28GlEE6vDIT2bUf8jouWfAk8wKy19lcnLuXg&scope=email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=none";
+		String url = "https://rahulshettyacademy.com/getCourse.php?code=4%2F0AX4XfWjcR8X2rjYYC_ZYJ4Rs1JiijnAk4O3_8TPo7YIcSQ8F6aGR8Z0gfW2frMJo3kaelw&scope=email+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&authuser=0&prompt=none";
 		String partial_Code = url.split("code=")[1];
 		String code = partial_Code.split("&scope")[0];
 		
