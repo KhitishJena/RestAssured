@@ -21,4 +21,7 @@
     <fullyQualifiedTypeName name="org.openqa.selenium.chrome.ChromeDriver"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.By"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.Keys"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="pojo.Pojo"/>
+    <fullyQualifiedTypeName name="io.restassured.parsing.Parser"/>
 </qualifiedTypeNameHistroy>
